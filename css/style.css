@@ -1,0 +1,104 @@
+img[alt='logo']{
+    width: 51px;
+    height: 51px;
+}
+
+nav{
+
+}
+
+#homeimg{
+    display: block;
+    cursor: zoom-out;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top{
+    width: 10 rem;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+
+}
+
+/* CONTACT US PAGE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    gap: 2rem;
+  }
+  
+  .pic {
+    width: 25vw;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .pic img {
+    width: inherit;
+    object-fit: cover;
+    transform: scale(2.3);
+  }
+  
+  .right .contact {
+    gap: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .form input, textarea {
+    width: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+  
+  .usersubmit input {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: min-content;
+    padding: 15px;
+    margin-bottom: 0;
+  
+  }
+  
+  
+  /* @media screen and (max-width: 700px) {
+    .card {
+      flex-direction: column;
+    }
+    
+    .pic {
+      width: 60vw;
+      height: 40vh;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .card {
+      overflow: hidden;
+    }
+    .pic {
+      height: 20vh;
+    }
+    .contact {
+      flex-direction: column;
+    }
+  } */
